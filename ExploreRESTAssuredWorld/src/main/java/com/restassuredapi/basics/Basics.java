@@ -10,6 +10,8 @@ import com.restassuredapi.utils.JsonUtil;
 
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
+import io.restassured.response.Response;
+
 import org.testng.Assert;
 
 
@@ -77,7 +79,8 @@ public class Basics {
 		JsonPath jsonPath=JsonUtil.rawToJson(response);
 		String actualAddress =jsonPath.getString("address");
 		
-		Assert.assertEquals(actualAddress, expectedAddress);		
+		Assert.assertEquals(actualAddress, expectedAddress);	
+		
 	}
 }
 

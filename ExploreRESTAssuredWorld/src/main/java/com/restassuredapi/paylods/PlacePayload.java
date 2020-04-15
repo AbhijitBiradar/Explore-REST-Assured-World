@@ -28,5 +28,5 @@ public class PlacePayload {
 				"\"address\":\""+newAddress+"\",\r\n" + 
 				"\"key\":\"qaclick123\"\r\n" + 
 				"}";
-	}
+	}	
 }

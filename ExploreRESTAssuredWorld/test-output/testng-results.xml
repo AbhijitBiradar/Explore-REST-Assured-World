@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10346" started-at="2020-04-10T14:29:29 IST" finished-at="2020-04-10T14:29:39 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10346" started-at="2020-04-10T14:29:29 IST" finished-at="2020-04-10T14:29:39 IST">
+      <class name="com.restassuredapi.basics.DynamicJsonProgramm">
+        <test-method status="PASS" signature="addBook(java.lang.String, java.lang.String)[pri:0, instance:com.restassuredapi.basics.DynamicJsonProgramm@67784306]" name="addBook" duration-ms="10079" started-at="2020-04-10T14:29:29 IST" data-provider="AddBookTestData" finished-at="2020-04-10T14:29:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aaaa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bbbb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+      </class> <!-- com.restassuredapi.basics.DynamicJsonProgramm -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
